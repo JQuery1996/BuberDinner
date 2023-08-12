@@ -1,0 +1,17 @@
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net7.0\BuberDinner.Infrastructure.deps.json
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net7.0\BuberDinner.Infrastructure.dll
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net7.0\BuberDinner.Infrastructure.pdb
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net7.0\BuberDinner.Infrastructure.csproj.AssemblyReference.cache
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net7.0\BuberDinner.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net7.0\BuberDinner.Infrastructure.AssemblyInfoInputs.cache
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net7.0\BuberDinner.Infrastructure.AssemblyInfo.cs
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net7.0\BuberDinner.Infrastructure.csproj.CoreCompileInputs.cache
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net7.0\BuberDinner.Infrastructure.dll
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net7.0\refint\BuberDinner.Infrastructure.dll
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net7.0\BuberDinner.Infrastructure.pdb
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net7.0\ref\BuberDinner.Infrastructure.dll
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net7.0\BuberDinner.Application.dll
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net7.0\BuberDinner.Domain.dll
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net7.0\BuberDinner.Application.pdb
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net7.0\BuberDinner.Domain.pdb
+G:\Snippts\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net7.0\BuberDinner.Infrastructure.csproj.CopyComplete
