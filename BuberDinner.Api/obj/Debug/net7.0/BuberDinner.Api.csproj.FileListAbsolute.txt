@@ -36,3 +36,10 @@ G:\Snippts\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\BuberDinner.Contracts.pd
 G:\Snippts\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\BuberDinner.Application.pdb
 G:\Snippts\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\BuberDinner.Infrastructure.pdb
 G:\Snippts\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\BuberDinner.Domain.pdb
+G:\Snippts\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\AutoMapper.dll
+G:\Snippts\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+G:\Snippts\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+G:\Snippts\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Snippts\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+G:\Snippts\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+G:\Snippts\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
