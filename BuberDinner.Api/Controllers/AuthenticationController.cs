@@ -1,33 +1,39 @@
-﻿
-using AutoMapper;
-using BuberDinner.Application.Services.Authentication;
+﻿using BuberDinner.Application.Authentication.Commands.Register;
+using BuberDinner.Application.Authentication.Common;
+using BuberDinner.Application.Authentication.Queries.Login;
 using BuberDinner.Contracts.Authentication;
+using ErrorOr;
+using MapsterMapper;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BuberDinner.Api.Controllers {
     [Route("api/auth")]
-    [ApiController]
-    public class AuthenticationController : ControllerBase {
-        private readonly IAuthenticationService _authenticationService;
+    //[ErrorHandlingFilter]
+    public class AuthenticationController : ApiController {
+        private readonly ISender _mediator;
         private readonly IMapper _mapper;
-        public AuthenticationController(IAuthenticationService _authenticationService, IMapper _mapper) {
-            this._authenticationService = _authenticationService;
-            this._mapper = _mapper;
+        public AuthenticationController(IMapper mapper, ISender mediator) {
+            _mapper = mapper;
+            _mediator = mediator;
         }
 
         [HttpPost("register", Name = "register")]
-        public IActionResult Register(RegisterRequest request) {
-            var authResult = _authenticationService.Register(request.FirstName, request.LastName, request.Email, request.Password);
+        public async Task<IActionResult> Register(RegisterRequest request) {
+            var registerCommand = _mapper.Map<RegisterCommand>(request);
+            ErrorOr<AuthenticationResult> registerResult = await _mediator.Send(registerCommand);
 
-            var response = _mapper.Map<AuthenticationResult>(authResult);
-            return Ok(response);
+            return registerResult.Match(
+                result => Ok(_mapper.Map<AuthenticationResult>(result)),
+               errors => Problem(errors)
+            );
         }
 
         [HttpPost("login", Name = "login")]
-        public IActionResult Login(LoginRequest request) {
-            var authResult = _authenticationService.Login(request.Email, request.Password);
-            var response = _mapper.Map<AuthenticationResult>(authResult);
-            return Ok(response);
+        public async Task<IActionResult> Login(LoginRequest request) {
+            var loginQuery = _mapper.Map<LoginQuery>(request);
+            ErrorOr<AuthenticationResult> loginResult = await _mediator.Send(loginQuery);
+            return loginResult.Match(result => Ok(_mapper.Map<AuthenticationResult>(result)), errors => Problem(errors));
         }
     }
 }

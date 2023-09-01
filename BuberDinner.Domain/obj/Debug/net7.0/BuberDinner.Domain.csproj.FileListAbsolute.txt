@@ -9,3 +9,4 @@ G:\Snippts\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\BuberDinner.Domain.dl
 G:\Snippts\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\refint\BuberDinner.Domain.dll
 G:\Snippts\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\BuberDinner.Domain.pdb
 G:\Snippts\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\ref\BuberDinner.Domain.dll
+G:\Snippts\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\BuberDinner.Domain.csproj.AssemblyReference.cache

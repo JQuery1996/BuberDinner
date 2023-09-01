@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "F9nt8vFs26jL+lLMD56ZnVydRjgoZ36AWspUMLnOMXuGhCT2XZsWJPRXulbKdLB5iF+7kuIHjvFUKbH+/xo0Yw==",
+  "dgSpecHash": "ywtiNLIRlYPNur2UAxxRMWMS93YEozUv5uk+3CJyIguFAnanV5eoK9eciHIiDxpMoApfmojUdE7j5nYN2I5Quw==",
   "success": true,
   "projectFilePath": "G:\\Snippts\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kinan\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

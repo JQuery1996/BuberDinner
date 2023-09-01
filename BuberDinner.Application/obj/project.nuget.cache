@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "SOjeLhOcw4qXDZoQpeUy8zMLM6VgC6oe8xwk/9EkwN5ZRo2anrrND7cKtgcLpbY+7by3WB53MlTCcmjM6EyCsg==",
+  "dgSpecHash": "pDhhG56Gyx7dkjXSGhG+KkNYP2huZ8H1bDN3OT9D2WX7VDgNZS+o32lshXil2rLCZve4XN9Adqt+VVzlbsdynw==",
   "success": true,
   "projectFilePath": "G:\\Snippts\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kinan\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
+    "C:\\Users\\kinan\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\kinan\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\kinan\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
+    "C:\\Users\\kinan\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\kinan\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\kinan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
